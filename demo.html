@@ -3,27 +3,39 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		
 	</head>
 	<body>
 		<h1>XPATH - JS</h1>
 		<hr>
 		
 		<h2>Document XML</h2>
-		<textarea id="demo"></textarea>
+		<textarea id="input_xml"></textarea>
 		
 		
 		
-		<script>
-			const demo = document.querySelector('#demo');
+		<h2>Inspection Rapide</h2>
+		<p>
+			Le document traite de
+			<div id="out_root">
 			
-			demo.onkeyup = function(){
-										console.log(this.value);
-										};
-		</script>
+			</div>
+		</p>
+		
+		<p>
+			Il contient:
+			<div id="out_count">
+			
+			</div>
+			<div id="out_children">
+			
+			</div>
+		</p>
 		
 		<h2>Expressions XPath</h2>
 		<textarea if="input_xpath" rows="1"></textarea>
 		
+		<!--<button id="xpath_test">test</button>-->
 		
 	</body>
 </html>
